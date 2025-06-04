@@ -9,7 +9,7 @@ const run = (cmd) => {
 const userName = "METABYTECODE";
 const userEmail = "tblazesteam@gmail.com";
 const repoName = "asunext";
-
+//ТЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕСТ
 function repoExists() {
   try {
     execSync(`gh repo view ${repoName}`, { stdio: "ignore" });
